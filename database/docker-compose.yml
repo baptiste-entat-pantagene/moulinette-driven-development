@@ -1,0 +1,15 @@
+services:
+  #DataBase
+  database:
+    container_name: database
+    image: mariadb:latest
+    restart: on-failure
+    volumes:
+      - ${PWD}/mariadb/:/var/lib/mysql/
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: mydatabase
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+    ports:
+      - '3306:3306'
