@@ -19,4 +19,10 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Include="..\..\Calculator\Calculator\Calculator.cs">
+        <Link>Calculator.cs</Link>
+      </Compile>
+    </ItemGroup>
+
 </Project>
