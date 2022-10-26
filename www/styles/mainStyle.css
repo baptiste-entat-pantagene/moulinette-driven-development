@@ -1,3 +1,5 @@
+
+
 .main-nav {
     display: flex;
     margin: 0;
@@ -22,6 +24,8 @@
     background-color: aqua;
 }
 
+
+
 body {
     margin: 0 auto;
     background-color: rgb(255, 145, 0);
@@ -29,16 +33,20 @@ body {
     border: 5px solid black;
 }
 
-div {
+p {
     color: rgb(75, 0, 0);
     border: 8px solid #419300;
-}
-
-p {
     font-size: 20px;
     text-indent: 20px;
 }
 
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: #1a1a1a;
+    background-color: #1a1a1a;
+}
 
 
 footer *{
