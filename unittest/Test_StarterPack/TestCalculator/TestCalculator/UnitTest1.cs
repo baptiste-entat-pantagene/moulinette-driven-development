@@ -3,7 +3,8 @@ using Calculator;
 
 namespace TestCalculator
 {
-    public class UnitTestCalculator
+    public class 
+        UnitTestCalculator
     {
         [Fact]
         public void TestAdd2()
